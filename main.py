@@ -9,10 +9,10 @@ position = input("Where do you want to put the treasure? ")
 
 #Write your code below this row 👇
 
-
-columns = row1 = ["1","2","3"] + row2 = ["1","2","3"] + row3 = ["1","2","3"]
-row = ["1","2","3"] + row2 = ["1","2","3"] + row3 = ["1","2","3"]
-
+#About the input:
+horizontal = int(position[0])
+vertical = int(position[1])
+map[vertical - 1][horizontal - 1] = " X "
 
 
 #Write your code above this row 👆
